@@ -182,6 +182,9 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Filtering ====================== */
+.list-container {
+  width: 100%;
+}
 
 .filter-options {
   background-color: #0273be;
