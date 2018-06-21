@@ -40,7 +40,7 @@ a:focus {
 }
 
 a img {
-  border: none 0px #fff;
+  border: none 0 #fff;
 }
 
 h1,
@@ -68,6 +68,17 @@ section {
   display: block;
 }
 
+.skip-link {
+  left: -999px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  left: auto;
+  overflow: auto;
+}
+
 .row {
   display: flex;
 }
@@ -88,7 +99,7 @@ section {
   width: 100%;
 }
 
-#maincontent {
+.maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
   display: flex;
@@ -96,7 +107,7 @@ section {
   justify-content: space-around;
 }
 
-#footer {
+.footer {
   background-color: #444;
   color: #b6b5b5;
   font-size: 8pt;
@@ -167,7 +178,7 @@ nav h1 a {
 
 /* ====================== Map ====================== */
 
-#maincontent #map-container {
+.maincontent .map-container {
   width: 100%;
 }
 
@@ -305,7 +316,7 @@ nav h1 a {
 
 #restaurant-address {
   font-size: 12pt;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 #restaurant-cuisine {
@@ -344,7 +355,7 @@ nav h1 a {
 #reviews-list li {
   background-color: #fff;
   border-radius: 20px 0 20px 0;
-  box-shadow: 10px 10px 16px 0px rgba(179, 172, 179, 1);
+  box-shadow: 10px 10px 16px 0 rgba(179, 172, 179, 1);
   display: block;
   list-style-type: none;
   margin: 0 auto 30px;
