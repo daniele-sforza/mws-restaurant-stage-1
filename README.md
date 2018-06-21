@@ -17,6 +17,4 @@ I added a service worker to create an offline experience for the users.
 
 ## Requirements
 
-All the required dependencies are included in the project.
-
-Open `index.html` to run.
+Start up a simple HTTP server on port 8000 on the project folder to serve up the site files on your local computer or load the site using this link on GitHub pages https://daniele-sforza.github.io/mws-restaurant-stage-1/
