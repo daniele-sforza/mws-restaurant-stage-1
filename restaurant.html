@@ -15,12 +15,14 @@
   <div class="main-container">
     <!-- Beginning header -->
     <header>
-      <!-- Beginning nav -->
-      <nav>
-        <h1>
-          <a href="index.html">Restaurant Reviews</a>
-        </h1>
-      </nav>
+      <h1>
+        <a href="index.html">Restaurant Reviews</a>
+      </h1>
+    </header>
+    <!-- End header -->
+    
+    <!-- Beginning nav -->
+    <nav aria-label="breadcrumb">
       <!-- Beginning breadcrumb -->
       <ul id="breadcrumb">
         <li>
@@ -28,9 +30,8 @@
         </li>
       </ul>
       <!-- End breadcrumb -->
-      <!-- End nav -->
-    </header>
-    <!-- End header -->
+    </nav>
+    <!-- End nav -->
 
     <!-- Beginning main -->
     <main class="maincontent">
@@ -41,7 +42,7 @@
       <!-- End map -->
       <!-- Beginning restaurant -->
       <section id="restaurant-container">
-        <h1 id="restaurant-name"></h1>
+        <h2 id="restaurant-name"></h2>
         <picture>
           <source media="(max-width: 399px)" id="restaurant-img-small">
           <source media="(min-width: 400px)" id="restaurant-img-large">
